@@ -671,10 +671,10 @@ export default function App() {
 
   const handleCopy = () => {
     try {
-      navigator.clipboard.writeText("XXXX-XXXX-XXXX");
+      navigator.clipboard.writeText("NAA3QPGQLKL4UCXU");
     } catch {
       const ta = document.createElement("textarea");
-      ta.value = "XXXX-XXXX-XXXX";
+      ta.value = "NAA3QPGQLKL4UCXU";
       document.body.appendChild(ta);
       ta.select();
       document.execCommand("copy");
@@ -1157,7 +1157,7 @@ function FinalScreen({ giftStyle, onConfetti, onCopy, copied, giftBoxClicks, set
               <p style={{ fontSize: 13, color: "#b060b0", marginBottom: 4 }}>
                 🎬 Ufak bi hediye kodu
               </p>
-              <div className="gift-code">XXXX-XXXX-XXXX</div>
+              <div className="gift-code">NAA3QPGQLKL4UCXU</div>
               <div className="copy-row">
                 <button className="copy-btn" onClick={onCopy}>
                   {copied ? "✅ Kopyalandı!" : "📋 Kopyala"}
